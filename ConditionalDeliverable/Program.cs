@@ -103,6 +103,13 @@ namespace ConditionalDeliverable
                     Console.WriteLine("Press any key to exit the program.");
                     Console.ReadKey(true);
                 }   
+
+                else
+                {
+                    Console.WriteLine("Error! Please enter a value from 0-100. IF you have above a 100, enter 100.");
+                    Console.WriteLine("Please press any button to exit and try again.");
+                    Console.ReadKey(true);
+                }
             }//end of try
 
             catch
