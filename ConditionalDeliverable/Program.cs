@@ -104,6 +104,7 @@ namespace ConditionalDeliverable
                     Console.ReadKey(true);
                 }   
 
+                //if user inputs a grade above 100
                 else
                 {
                     Console.WriteLine("Error! Please enter a value from 0-100. IF you have above a 100, enter 100.");
